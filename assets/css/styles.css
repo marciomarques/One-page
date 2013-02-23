@@ -2,7 +2,7 @@ body{
   background: #fff;
 }
 .banner{
-	background-color: #F6F4F1;
+	background: #F6F4F1 url(../img/brown_header.png) no-repeat bottom center;
 	min-height: 500px;
 }
 
