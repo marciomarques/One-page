@@ -2,7 +2,7 @@ body{
   background: #fff;
 }
 .banner{
-	background: #F6F4F1;
+	background: #008dd8;
 	min-height: 500px;
 }
 
@@ -19,7 +19,7 @@ body{
 	background-color: transparent;
 }
 .hero-unit h1{
-	color: #444445;
+	color: white;
 	font-size: 50px;
 	line-height: 80px;
 	margin-top: 30px;
@@ -27,7 +27,7 @@ body{
 }
 
 .hero-unit p{
-	color: #868787;
+	color: white;
 	margin-top: 10px;
 	line-height: 20px;
 	font-size: 28px;
@@ -48,11 +48,11 @@ section h2{
 }
 
 .mais h2{
-  color: #EA4738;
+  color: #008dd8;
 }
 
 .mais-color{
-  background: #F6F4F1;
+  background: #eeeeee;
   padding: 50px 0 50px 0;
   margin: 0;
 }
@@ -90,7 +90,11 @@ article p{
 
 ul li{
   line-height: 30px; 
-  list-style: circle;
+  list-style: none;
+}
+
+i{
+  padding-left: 0px;
 }
 
 .cta{
@@ -104,23 +108,23 @@ ul li{
   width: 49px;
   margin-right: 10px;
   background: #fff;
-  border: 3px solid #f04831;
+  border: 3px solid #008dd8;
   border-radius: 28px;
-  color: #f04831;
+  color: #008dd8;
   line-height: 49px;
   text-align: center;
 }
 
 .btn-large.cta-one{
 	line-height: 70px;
-	background: #EA4738;
+	background: #5cb6e6;
 	color: white;
 	border: none;
 	padding: 0 40px 0 40px;
 }
 
 a:hover.btn-large.cta-one {
-	background: #f68176;
+	background: #73c9f8;
 }
 
 .btn-large.cta-two{
@@ -129,4 +133,66 @@ a:hover.btn-large.cta-one {
 	color: #484846;
 	padding: 0 40px 0 40px;
 	margin-left: 20px;
+}
+
+.projetos{
+  margin-bottom: 1px;
+}
+
+.screenshots {
+position: relative;
+min-height: 300px;
+max-width: 740px;
+padding: 0 100px;
+margin: 0 auto;
+}
+
+.screenshots div {
+  position: absolute;
+  background: url("../img/screenshots.jpg") 0 0 no-repeat;
+  left: 50%;
+  bottom: 0;
+  -webkit-box-shadow: rgba(0,0,0,0.3) 0 0 10px 0;
+  -moz-box-shadow: rgba(0,0,0,0.3) 0 0 10px 0;
+  box-shadow: rgba(0,0,0,0.3) 0 0 10px 0;
+}
+
+.screenshots .screenshot-1 {
+z-index: 20;
+background-position: 0 0;
+width: 361px;
+height: 207px;
+margin-left: -65.21276596%;
+}
+
+.screenshots .screenshot-2 {
+z-index: 10;
+background-position: 0 -257px;
+width: 484px;
+height: 292px;
+margin-left: -48.40425532%;
+}
+
+.screenshots .screenshot-3 {
+z-index: 30;
+background-position: 0 -594px;
+width: 325px;
+height: 200px;
+margin-left: -16.59574468%;
+}
+
+.screenshots .screenshot-4 {
+z-index: 40;
+background-position: 0 -873px;
+width: 314px;
+height: 271px;
+margin-left: 11.06382979%;
+}
+
+.screenshots .screenshot-5 {
+z-index: 50;
+background-position: 0 -1194px;
+width: 378px;
+height: 200px;
+margin-left: 26.4893617%;
 }
