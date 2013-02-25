@@ -21,16 +21,17 @@ body{
 .hero-unit h1{
 	color: white;
 	font-size: 50px;
-	line-height: 80px;
+	line-height: 60px;
 	margin-top: 30px;
-	font-weight: 100px
+	font-weight: 100px;
 }
 
 .hero-unit p{
-	color: white;
+	color: #5cb6e6;
 	margin-top: 10px;
 	line-height: 20px;
 	font-size: 28px;
+	font-family: 'Indie Flower', cursive;
 }
 
 section.banner{
