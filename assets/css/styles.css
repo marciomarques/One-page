@@ -71,7 +71,7 @@ section h3{
 
 article h4{
   color: #444445;
-  margin: 100px 0 20px 0;
+  margin: 50px 0 20px 0;
   font-size: 25px;
 }
 
@@ -85,7 +85,6 @@ article h5{
 article p{
   font-size: 18px;
   line-height: 30px;
-  text-align: center;
   color: #868787;
 }
 
