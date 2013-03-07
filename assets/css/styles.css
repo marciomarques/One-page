@@ -15,6 +15,10 @@ body{
 	text-align: center;
 }
 
+.center{
+  margin: 0 auto;
+}
+
 .hero-unit{
 	background-color: transparent;
 }
@@ -195,4 +199,16 @@ background-position: 0 -1194px;
 width: 378px;
 height: 200px;
 margin-left: 26.4893617%;
+}
+
+.deadline .span2 {
+  background: #eee;
+  margin: 0px;
+  padding: 25px;
+}
+
+.bar{
+  background: #666;
+  min-height: 10px;
+  margin-bottom: 30px;
 }
